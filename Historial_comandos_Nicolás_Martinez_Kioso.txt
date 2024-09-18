@@ -1,0 +1,17 @@
+cd repogit
+ls -la
+cd ..
+ls -la
+cd repogit
+cd TP_AySO/
+ls -la
+man tcpdump
+cat << EOF >> README.md
+Alumno: Nicolás Martinez Kioso
+División: 114
+Turno: Mañana
+EOF
+
+git add README.md
+git commit -m "Agregar archivo README.md con datos personales"
+history -a
